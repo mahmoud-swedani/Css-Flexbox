@@ -1,0 +1,64 @@
+
+.flexbox-containar{
+    background-color: teal;
+    /* one edite display flex to get im the same row */
+    display: flex;
+    flex-wrap: wrap;
+
+    /* go all to rghit  
+    justify-content: flex-end;*/
+    
+    /* go all to center  
+    justify-content: center; */
+    
+    /* space between th item  */ 
+    /* justify-content: space-between;  */
+    
+    /* space around th item  */ 
+    /* justify-content: space-around; */
+
+    /* space evenly th item  */ 
+    justify-content: space-evenly;
+
+    /* warp */
+
+    /* align items  from top to  */ 
+    /* align-items: flex-start; */
+
+    /* align items  from  buttomto top */ 
+    /* align-items: flex-end; */
+
+    /* align items  in the center */ 
+    align-items: center;
+
+}
+
+.flexbox-item{
+    /* width: 15%; */
+    /* width: 15%; */
+    /* width: 25%; */
+    /* width: 45%; */
+    /* width: 30%; */
+    width: 50%;
+    background-color: #ff652f;
+    border: 3px solid #272727;
+    color: white;
+    font-size: 2rem;
+    padding: 20px;
+    margin: 1rem;
+}
+
+
+.item-1{
+    min-height: 3rem;
+}
+
+.item-2{
+    min-height: 6rem;
+
+}
+
+.item-3{
+    min-height: 15rem;
+
+}

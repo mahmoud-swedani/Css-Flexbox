@@ -1,0 +1,42 @@
+*{
+    box-sizing: border-box;
+}
+
+body{
+    margin: 0;
+    font-family: 'Courier New', Courier, monospace;
+
+}
+.header{
+    text-align: center;
+    padding: 25px;
+}
+
+.row{
+    display: flex;
+    flex-wrap: wrap;
+    justify-items: flex-start;
+
+}
+
+.column{
+    flex:25%;
+
+}
+.column img{
+    padding: 5px;
+    width: 100%;
+    vertical-align: middle;
+}
+
+@media (max-width: 800px){
+    .column{
+        flex:50%
+    }
+}
+
+@media (max-width: 600px){
+    .column{
+        flex:100%
+    }
+}
